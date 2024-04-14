@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookExtractor", "BookExtractor\BookExtractor.csproj", "{DFD0F5EA-02EA-44E3-AA9D-455DB025091D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookExtractorTests", "BookExtractorTests\BookExtractorTests.csproj", "{487268BD-3107-472E-9F7C-8607D9C67619}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFD0F5EA-02EA-44E3-AA9D-455DB025091D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD0F5EA-02EA-44E3-AA9D-455DB025091D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD0F5EA-02EA-44E3-AA9D-455DB025091D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD0F5EA-02EA-44E3-AA9D-455DB025091D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{487268BD-3107-472E-9F7C-8607D9C67619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487268BD-3107-472E-9F7C-8607D9C67619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487268BD-3107-472E-9F7C-8607D9C67619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487268BD-3107-472E-9F7C-8607D9C67619}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {844541B2-8ED1-4DA4-825A-61D52268D6D6}
+	EndGlobalSection
+EndGlobal
