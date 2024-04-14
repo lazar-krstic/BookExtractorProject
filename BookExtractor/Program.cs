@@ -90,6 +90,11 @@ namespace BookExtractor
                 // Handle JSON deserialization exceptions
                 throw new JsonException($"Failed to deserialize JSON response: {ex.Message}", ex);
             }
+            catch (Exception ex)
+            {
+                // Handle any other unexpected exceptions
+                throw new Exception($"An error occurred while fetching books: {ex.Message}", ex);
+            }
 
         }
 
